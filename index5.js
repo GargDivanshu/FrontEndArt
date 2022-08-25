@@ -196,13 +196,13 @@ eren.addEventListener('load', function(){
                 let movement = (3.5 - this.speed) + this.velocity;
                 this.angle++;
     
-               this.y += movement;
+               this.y += movement + Math.sin(this.angle)*3;
                if(this.y >= canvas.height) {
                 this.y = 0;
                 this.x = Math.random() * canvas.width;
                }
             
-             this.x += movement;
+             this.x += movement + Math.sin(this.angle)*3;
                if(this.x >= canvas.width) {
                 this.x = 0;
                 this.y = Math.random() * canvas.height;
