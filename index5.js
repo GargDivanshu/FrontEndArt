@@ -214,6 +214,7 @@ eren.addEventListener('load', function(){
 
                 if((mappedImage[this.position1]) && (mappedImage[this.position1][this.position2])){
                 ctx.fillStyle = mappedImage[this.position1][this.position2][1];
+                ctx.strokeStyle = mappedImage[this.position1][this.position2][1];
                 }
                // ctx.textBaseline = "top";
                 ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
