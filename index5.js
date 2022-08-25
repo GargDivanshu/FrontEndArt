@@ -194,7 +194,7 @@ eren.addEventListener('load', function(){
                 // console.log(mappedImage[this.position1][this.position2][0]);
                 
                 let movement = (3.5 - this.speed) + this.velocity;
-                this.angle++;
+                this.angle = this.speed/20;
     
                this.y += movement + Math.sin(this.angle)*3;
                if(this.y >= canvas.height) {
@@ -202,7 +202,7 @@ eren.addEventListener('load', function(){
                 this.x = Math.random() * canvas.width;
                }
             
-             this.x += movement + Math.sin(this.angle)*3;
+             this.x += movement + Math.cos(this.angle)*3;
                if(this.x >= canvas.width) {
                 this.x = 0;
                 this.y = Math.random() * canvas.height;
