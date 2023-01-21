@@ -2,7 +2,7 @@
 Hey there, 
 
 Well I am an explorer and I explored quiet a lot in my freshmen year, 
-and this front-end art was using HTML Canvas and the first time i saw 
+and this front-end art was made using HTML Canvas and the first time i saw 
 all of it I was impressed how simple css and html can make beautiful creations. 
 
 I started learning it and created this particular HTML, CSS effects. 
